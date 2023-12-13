@@ -10,7 +10,9 @@ Detalhes do Repositório: Clique em um repositório, na lista de resultados, par
 
 # Tecnologias Utilizadas: 
 React
+
 Axios para requisições HTTP
+
 HTML e CSS
 
 # Contribuindo:
