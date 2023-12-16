@@ -8,11 +8,21 @@ function App() {
       <Header />
       <div className="conteudo">
         <img src={background} className="background" alt="background app"/>
-        <div className="info">teste</div>
-        <div className="user">
-          <input name="usuario" placeholder="username" />
-          <button>Button</button>
-        </div>
+          <div className="info">
+            <div>
+              <input name="usuario" placeholder="@username" />
+              <button>Buscar</button>
+            </div>
+            <div className="perfil">
+              <img src="https://avatars.githubusercontent.com/u/103774096?v=4" className="profile" alt="imagem de perfil"/>
+              <div className="dados">
+                <h3>Osvaldo Holanda</h3>
+                <span>@osvaldo_holanda</span>
+                <p>Descrição</p>
+              </div>
+            </div>
+            <hr />
+          </div>
       </div>
     </div>
   );
