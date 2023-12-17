@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+
+.App {
+    font-family: 'Poppins', sans-serif;
+}
 .conteudo {
     position: relative;
     display: flex;
@@ -27,17 +33,18 @@ input {
     min-width: 250px;
     margin-right: 12px;
     width: 80%;
+    color: #ffffff
 }
 
 button {
     border: 1px solid #999999;
     border-radius: 22px;
     background: #203338;
-    font-size: 18px;
+    font-size: 14px;
     padding: 10px;
     color: #ffffff;
     margin-right: 12px;
-    
+    font-family: 'Poppins', sans-serif;
 }
 
 .perfil {
@@ -80,7 +87,7 @@ button {
 }
 
 .repositorio {
-    font-size: 32px;
+    font-size: 24px;
     color: #ffffff;
     margin: 12px 0;
     text-align: center;
